@@ -1,0 +1,164 @@
+@media(max-width: 1449px) {
+  .header__content-images img {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 180px;
+    transform: none;
+  }
+
+  .title--pod {
+    z-index: 1;
+  }
+
+  .title--s {
+    transform: none;
+  }
+
+  .title--m {
+    transform: none;
+  }
+
+  .title--ax {
+    transform: none;
+  }
+}
+
+@media(max-width: 1200px) {
+  .title {
+    padding-top: 20vh;
+    padding-left: 0;
+    font-size: 140px;
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+
+  .title--m {
+    padding-left: 15px;
+  }
+}
+
+@media(max-width: 922px) {
+  .title {
+    position: relative;
+    padding-top: 0;
+    font-size: 100px;
+  }
+
+
+}
+
+@media(max-width: 768px) {
+  .choose__color {
+    padding-bottom: 60px;
+  }
+
+  .main__title {
+    font-size: 36px;
+  }
+
+  .composition {
+    margin-bottom: 60px;
+  }
+
+  .choose__color-list {
+    gap: 16px;
+  }
+
+  .case {
+    padding: 60px 0;
+  }
+
+  .energy__title {
+    margin-bottom: 20px;
+    padding-top: 60px;
+  }
+
+  .energy__number {
+    margin-bottom: 20px;
+    font-size: 110px;
+  }
+
+  .title {
+    font-size: 58px;
+  }
+}
+
+@media(max-width: 560px) {
+
+  .header {
+    min-height: 50vh;
+  }
+
+  .choose__color {
+    padding-bottom: 40px;
+  }
+
+  .choose__color-text {
+    margin-bottom: 40px;
+  }
+
+  .case {
+    padding: 40px 0;
+  }
+
+  .composition__inner-text p {
+    max-width: 100%;
+  }
+
+  .composition__inner {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 490px) {
+  .menu__list {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+  }
+
+  .header__top {
+    align-items: flex-start;
+  }
+
+  .logo {
+    display: block;
+    margin-top: 20px;
+    margin-right: 92px;
+  }
+
+  .menu__item-btn {
+    margin-left: 43px;
+  }
+
+  .title {
+    font-size: 49px;
+  }
+
+}
+
+@media(max-width: 414px) {
+
+  .logo {
+    margin-right: 76px;
+    padding-left: 10px;
+  }
+
+  .main__title,
+  .choose__color-title {
+    font-size: 28px;
+  }
+
+  .energy__number {
+    font-size: 92px;
+  }
+
+  .case img {
+    max-width: 100%;
+  }
+}
